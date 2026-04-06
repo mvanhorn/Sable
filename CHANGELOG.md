@@ -1,5 +1,28 @@
 # Sable Client Changelog
 
+## 1.14.0 (2026-04-06)
+
+### Features
+
+* Add support for rendering bundled urls per MSC4095 ([#590](https://github.com/SableClient/Sable/pull/590) by @nushea)
+* Improve code blocks with faster, more accurate syntax highlighting, broader language support, and separate light and dark theme options. ([#576](https://github.com/SableClient/Sable/pull/576) by @hazre)
+* Add a setting to collapse sidebar folders by default. ([#624](https://github.com/SableClient/Sable/pull/624) by @7w1)
+* Add a "Dismiss" button to command response messages. ([#625](https://github.com/SableClient/Sable/pull/625) by @7w1)
+* Re-introduced custom HTML formatting for long messages ([#641](https://github.com/SableClient/Sable/pull/641) by @Septicity)
+* You can now share direct links to specific settings, and opening one takes you to the right section and highlights the target option. ([#577](https://github.com/SableClient/Sable/pull/577) by @hazre)
+* Settings now use route-based navigation with improved desktop and mobile behavior, including better back and close handling. ([#577](https://github.com/SableClient/Sable/pull/577) by @hazre)
+
+### Fixes
+
+* Fix reply button not capturing editor focus. ([#623](https://github.com/SableClient/Sable/pull/623) by @7w1)
+* Fixes links not being clickable in formatted messages, including messages that use abbreviations. ([#632](https://github.com/SableClient/Sable/pull/632) by @hazre)
+* Fix some zero-width (invisible) names ([#640](https://github.com/SableClient/Sable/pull/640) by @nushea)
+* Fixed the "sticky scrolling" issue in encrypted rooms with many PMP messages. ([#626](https://github.com/SableClient/Sable/pull/626) by @Septicity)
+* Image zooming is now centered on the cursor position ([#602](https://github.com/SableClient/Sable/pull/602) by @mini-bomba)
+* Image zooming is now multiplicative instead of additive, resulting in a consistent "zooming speed". ([#602](https://github.com/SableClient/Sable/pull/602) by @mini-bomba)
+* Image zoom buttons now zoom towards the center of the screen ([#602](https://github.com/SableClient/Sable/pull/602) by @mini-bomba)
+* Right clicks no longer drag images in the viewer. ([#620](https://github.com/SableClient/Sable/pull/620) by @Septicity)
+
 ## 1.13.1 (2026-03-30)
 
 ### Fixes
